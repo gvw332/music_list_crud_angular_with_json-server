@@ -2,7 +2,7 @@
   "musics": [
     {
       "title": "Hope",
-      "artist": "NFaaabbbbccc",
+      "artist": "NF",
       "id": "1"
     },
     {
@@ -24,6 +24,11 @@
       "id": "a319",
       "title": "Jean",
       "artist": "Kelly Jones"
+    },
+    {
+      "id": "90cc",
+      "title": "Lose yourself",
+      "artist": "Eminem"
     }
   ]
 }
