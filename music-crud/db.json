@@ -1,0 +1,29 @@
+{
+  "musics": [
+    {
+      "title": "Hope",
+      "artist": "NFaaabbbbccc",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "title": "On est là",
+      "artist": "gilet jaune"
+    },
+    {
+      "id": "3",
+      "title": "Scar tissue",
+      "artist": "Red hot chili peppers"
+    },
+    {
+      "id": "0a27",
+      "title": "Violet",
+      "artist": "Holy"
+    },
+    {
+      "id": "a319",
+      "title": "Jean",
+      "artist": "Kelly Jones"
+    }
+  ]
+}

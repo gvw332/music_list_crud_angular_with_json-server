@@ -1,0 +1,21 @@
+<h2>Liste des musiques</h2>
+
+<div class="actions">
+  <button routerLink="/musics/create">Créer une musique</button>
+</div>
+
+<div class="music-list">
+  @for (music of musics; track music.id) {
+    <div class="music-card">
+      <div class="music-info">
+        <p class="title">Titre : {{ music.title }}</p>
+        <p class="artist">Artiste : {{ music.artist }}</p>
+      </div>
+      <div class="music-buttons">
+        <button [routerLink]="['/musics', music.id]">Voir</button>
+        <button [routerLink]="['/musics/update', music.id]">Modifier</button>
+        <button (click)="deleteMusic(music.id)">Supprimer</button>
+      </div>
+    </div>
+  }
+</div>

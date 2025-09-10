@@ -1,0 +1,14 @@
+<div class="detail-container">
+  <h2>Détail de la musique</h2>
+
+  @if (music) {
+    <div class="music-info">
+      <p><strong>ID :</strong> {{ music.id }}</p>
+      <p><strong>Titre :</strong> {{ music.title }}</p>
+      <p><strong>Artiste :</strong> {{ music.artist }}</p>
+    </div>
+
+    <div class="buttons">
+      <button routerLink="/musics">Retour à la liste</button>
+    </div>
+  }
